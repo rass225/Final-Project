@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05B092D20918E6200F28AF2 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C05B092C20918E6100F28AF2 /* logo.png */; };
+		C05B09302091951600F28AF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05B092F2091951600F28AF2 /* MapKit.framework */; };
+		C05B0932209195E500F28AF2 /* rattata.png in Resources */ = {isa = PBXBuildFile; fileRef = C05B0931209195E500F28AF2 /* rattata.png */; };
+		C05B09342092846F00F28AF2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C05B09332092846E00F28AF2 /* CoreLocation.framework */; };
+		C07A1E1C208E84AE00F875D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E1B208E84AE00F875D2 /* AppDelegate.swift */; };
+		C07A1E1E208E84AE00F875D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E1D208E84AE00F875D2 /* ViewController.swift */; };
+		C07A1E21208E84AE00F875D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07A1E1F208E84AE00F875D2 /* Main.storyboard */; };
+		C07A1E24208E84AE00F875D2 /* Final_Maryville_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E22208E84AE00F875D2 /* Final_Maryville_App.xcdatamodeld */; };
+		C07A1E26208E84AF00F875D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07A1E25208E84AF00F875D2 /* Assets.xcassets */; };
+		C07A1E29208E84AF00F875D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07A1E27208E84AF00F875D2 /* LaunchScreen.storyboard */; };
+		C07A1E34208E84AF00F875D2 /* Final_Maryville_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E33208E84AF00F875D2 /* Final_Maryville_AppTests.swift */; };
+		C07A1E3F208E84AF00F875D2 /* Final_Maryville_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E3E208E84AF00F875D2 /* Final_Maryville_AppUITests.swift */; };
+		C07A1E53208EB72200F875D2 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E52208EB72200F875D2 /* Menu.swift */; };
+		C07A1E57208ECDA500F875D2 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E56208ECDA500F875D2 /* EventsViewController.swift */; };
+		C07A1E59208ED8AD00F875D2 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E58208ED8AD00F875D2 /* AppointmentsViewController.swift */; };
+		C07A1E5B208EDA0600F875D2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E5A208EDA0600F875D2 /* MenuViewController.swift */; };
+		C07A1E5D208EE25300F875D2 /* BuildingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E5C208EE25300F875D2 /* BuildingsViewController.swift */; };
+		C07A1E5F208EE27A00F875D2 /* EmergencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E5E208EE27A00F875D2 /* EmergencyViewController.swift */; };
+		C07A1E61208EE29B00F875D2 /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E60208EE29B00F875D2 /* AboutMeViewController.swift */; };
+		C07A1E642090011E00F875D2 /* DUCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E632090011E00F875D2 /* DUCViewController.swift */; };
+		C07A1E672090014B00F875D2 /* SimonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E662090014B00F875D2 /* SimonViewController.swift */; };
+		C07A1E692090015B00F875D2 /* MoutonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E682090015B00F875D2 /* MoutonViewController.swift */; };
+		C07A1E6B2090018600F875D2 /* SaintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E6A2090018600F875D2 /* SaintsViewController.swift */; };
+		C07A1E6D209001A900F875D2 /* GanderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E6C209001A900F875D2 /* GanderViewController.swift */; };
+		C07A1E6F209001B800F875D2 /* WalkerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E6E209001B800F875D2 /* WalkerViewController.swift */; };
+		C07A1E71209001C500F875D2 /* PotterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E70209001C500F875D2 /* PotterViewController.swift */; };
+		C07A1E73209001E400F875D2 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E72209001E400F875D2 /* LibraryViewController.swift */; };
+		C07A1E75209001FB00F875D2 /* AuditoriumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E74209001FB00F875D2 /* AuditoriumViewController.swift */; };
+		C07A1E772090020800F875D2 /* ChapelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E762090020800F875D2 /* ChapelViewController.swift */; };
+		C07A1E792090021800F875D2 /* BuderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E782090021800F875D2 /* BuderViewController.swift */; };
+		C07A1E7B2090023000F875D2 /* McNallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E7A2090023000F875D2 /* McNallyViewController.swift */; };
+		C07A1E7D2090024400F875D2 /* BaseballViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E7C2090024400F875D2 /* BaseballViewController.swift */; };
+		C07A1E7F2090025700F875D2 /* SoccerFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E7E2090025700F875D2 /* SoccerFieldViewController.swift */; };
+		C07A1E812090026500F875D2 /* TennisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E802090026500F875D2 /* TennisViewController.swift */; };
+		C07A1E832090028000F875D2 /* SoccerPracitceFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E822090028000F875D2 /* SoccerPracitceFieldViewController.swift */; };
+		C07A1E852090029700F875D2 /* AnheuserBuschViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E842090029700F875D2 /* AnheuserBuschViewController.swift */; };
+		C07A1E87209002A600F875D2 /* ReidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E86209002A600F875D2 /* ReidViewController.swift */; };
+		C07A1E89209002B600F875D2 /* KernaghanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E88209002B600F875D2 /* KernaghanViewController.swift */; };
+		C07A1E8B209002D700F875D2 /* DesignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E8A209002D700F875D2 /* DesignViewController.swift */; };
+		C07A1E8D209002E600F875D2 /* StudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E8C209002E600F875D2 /* StudioViewController.swift */; };
+		C07A1E8F209002F500F875D2 /* AnnexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E8E209002F500F875D2 /* AnnexViewController.swift */; };
+		C07A1E912090030400F875D2 /* ApartmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1E902090030400F875D2 /* ApartmentsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07A1E30208E84AF00F875D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07A1E10208E84AE00F875D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07A1E17208E84AE00F875D2;
+			remoteInfo = "Final Maryville App";
+		};
+		C07A1E3B208E84AF00F875D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07A1E10208E84AE00F875D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07A1E17208E84AE00F875D2;
+			remoteInfo = "Final Maryville App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C05B092C20918E6100F28AF2 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C05B092F2091951600F28AF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C05B0931209195E500F28AF2 /* rattata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rattata.png; sourceTree = "<group>"; };
+		C05B09332092846E00F28AF2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C07A1E18208E84AE00F875D2 /* Final Maryville App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Maryville App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A1E1B208E84AE00F875D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C07A1E1D208E84AE00F875D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C07A1E20208E84AE00F875D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C07A1E23208E84AE00F875D2 /* Final_Maryville_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Final_Maryville_App.xcdatamodel; sourceTree = "<group>"; };
+		C07A1E25208E84AF00F875D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07A1E28208E84AF00F875D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C07A1E2A208E84AF00F875D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A1E2F208E84AF00F875D2 /* Final Maryville AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Maryville AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A1E33208E84AF00F875D2 /* Final_Maryville_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Maryville_AppTests.swift; sourceTree = "<group>"; };
+		C07A1E35208E84AF00F875D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A1E3A208E84AF00F875D2 /* Final Maryville AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Maryville AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07A1E3E208E84AF00F875D2 /* Final_Maryville_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Maryville_AppUITests.swift; sourceTree = "<group>"; };
+		C07A1E40208E84AF00F875D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C07A1E52208EB72200F875D2 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		C07A1E56208ECDA500F875D2 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		C07A1E58208ED8AD00F875D2 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		C07A1E5A208EDA0600F875D2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C07A1E5C208EE25300F875D2 /* BuildingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildingsViewController.swift; sourceTree = "<group>"; };
+		C07A1E5E208EE27A00F875D2 /* EmergencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmergencyViewController.swift; sourceTree = "<group>"; };
+		C07A1E60208EE29B00F875D2 /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		C07A1E632090011E00F875D2 /* DUCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DUCViewController.swift; sourceTree = "<group>"; };
+		C07A1E662090014B00F875D2 /* SimonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimonViewController.swift; sourceTree = "<group>"; };
+		C07A1E682090015B00F875D2 /* MoutonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoutonViewController.swift; sourceTree = "<group>"; };
+		C07A1E6A2090018600F875D2 /* SaintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaintsViewController.swift; sourceTree = "<group>"; };
+		C07A1E6C209001A900F875D2 /* GanderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GanderViewController.swift; sourceTree = "<group>"; };
+		C07A1E6E209001B800F875D2 /* WalkerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkerViewController.swift; sourceTree = "<group>"; };
+		C07A1E70209001C500F875D2 /* PotterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotterViewController.swift; sourceTree = "<group>"; };
+		C07A1E72209001E400F875D2 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		C07A1E74209001FB00F875D2 /* AuditoriumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuditoriumViewController.swift; sourceTree = "<group>"; };
+		C07A1E762090020800F875D2 /* ChapelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapelViewController.swift; sourceTree = "<group>"; };
+		C07A1E782090021800F875D2 /* BuderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuderViewController.swift; sourceTree = "<group>"; };
+		C07A1E7A2090023000F875D2 /* McNallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McNallyViewController.swift; sourceTree = "<group>"; };
+		C07A1E7C2090024400F875D2 /* BaseballViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseballViewController.swift; sourceTree = "<group>"; };
+		C07A1E7E2090025700F875D2 /* SoccerFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerFieldViewController.swift; sourceTree = "<group>"; };
+		C07A1E802090026500F875D2 /* TennisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisViewController.swift; sourceTree = "<group>"; };
+		C07A1E822090028000F875D2 /* SoccerPracitceFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoccerPracitceFieldViewController.swift; sourceTree = "<group>"; };
+		C07A1E842090029700F875D2 /* AnheuserBuschViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnheuserBuschViewController.swift; sourceTree = "<group>"; };
+		C07A1E86209002A600F875D2 /* ReidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReidViewController.swift; sourceTree = "<group>"; };
+		C07A1E88209002B600F875D2 /* KernaghanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KernaghanViewController.swift; sourceTree = "<group>"; };
+		C07A1E8A209002D700F875D2 /* DesignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignViewController.swift; sourceTree = "<group>"; };
+		C07A1E8C209002E600F875D2 /* StudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioViewController.swift; sourceTree = "<group>"; };
+		C07A1E8E209002F500F875D2 /* AnnexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnexViewController.swift; sourceTree = "<group>"; };
+		C07A1E902090030400F875D2 /* ApartmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07A1E15208E84AE00F875D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05B09342092846F00F28AF2 /* CoreLocation.framework in Frameworks */,
+				C05B09302091951600F28AF2 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E2C208E84AF00F875D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E37208E84AF00F875D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C05B092E2091951600F28AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C05B09332092846E00F28AF2 /* CoreLocation.framework */,
+				C05B092F2091951600F28AF2 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07A1E0F208E84AE00F875D2 = {
+			isa = PBXGroup;
+			children = (
+				C07A1E52208EB72200F875D2 /* Menu.swift */,
+				C07A1E652090012C00F875D2 /* Buildings */,
+				C07A1E1A208E84AE00F875D2 /* Final Maryville App */,
+				C07A1E32208E84AF00F875D2 /* Final Maryville AppTests */,
+				C07A1E3D208E84AF00F875D2 /* Final Maryville AppUITests */,
+				C07A1E19208E84AE00F875D2 /* Products */,
+				C05B092E2091951600F28AF2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C07A1E19208E84AE00F875D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E18208E84AE00F875D2 /* Final Maryville App.app */,
+				C07A1E2F208E84AF00F875D2 /* Final Maryville AppTests.xctest */,
+				C07A1E3A208E84AF00F875D2 /* Final Maryville AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07A1E1A208E84AE00F875D2 /* Final Maryville App */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E1B208E84AE00F875D2 /* AppDelegate.swift */,
+				C07A1E1D208E84AE00F875D2 /* ViewController.swift */,
+				C07A1E622090002B00F875D2 /* Main View Controllers */,
+				C07A1E25208E84AF00F875D2 /* Assets.xcassets */,
+				C05B092C20918E6100F28AF2 /* logo.png */,
+				C05B0931209195E500F28AF2 /* rattata.png */,
+				C07A1E27208E84AF00F875D2 /* LaunchScreen.storyboard */,
+				C07A1E2A208E84AF00F875D2 /* Info.plist */,
+				C07A1E22208E84AE00F875D2 /* Final_Maryville_App.xcdatamodeld */,
+			);
+			path = "Final Maryville App";
+			sourceTree = "<group>";
+		};
+		C07A1E32208E84AF00F875D2 /* Final Maryville AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E33208E84AF00F875D2 /* Final_Maryville_AppTests.swift */,
+				C07A1E35208E84AF00F875D2 /* Info.plist */,
+			);
+			path = "Final Maryville AppTests";
+			sourceTree = "<group>";
+		};
+		C07A1E3D208E84AF00F875D2 /* Final Maryville AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E3E208E84AF00F875D2 /* Final_Maryville_AppUITests.swift */,
+				C07A1E40208E84AF00F875D2 /* Info.plist */,
+			);
+			path = "Final Maryville AppUITests";
+			sourceTree = "<group>";
+		};
+		C07A1E622090002B00F875D2 /* Main View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E1F208E84AE00F875D2 /* Main.storyboard */,
+				C07A1E5A208EDA0600F875D2 /* MenuViewController.swift */,
+				C07A1E56208ECDA500F875D2 /* EventsViewController.swift */,
+				C07A1E58208ED8AD00F875D2 /* AppointmentsViewController.swift */,
+				C07A1E5C208EE25300F875D2 /* BuildingsViewController.swift */,
+				C07A1E5E208EE27A00F875D2 /* EmergencyViewController.swift */,
+				C07A1E60208EE29B00F875D2 /* AboutMeViewController.swift */,
+			);
+			path = "Main View Controllers";
+			sourceTree = "<group>";
+		};
+		C07A1E652090012C00F875D2 /* Buildings */ = {
+			isa = PBXGroup;
+			children = (
+				C07A1E632090011E00F875D2 /* DUCViewController.swift */,
+				C07A1E662090014B00F875D2 /* SimonViewController.swift */,
+				C07A1E682090015B00F875D2 /* MoutonViewController.swift */,
+				C07A1E6A2090018600F875D2 /* SaintsViewController.swift */,
+				C07A1E6C209001A900F875D2 /* GanderViewController.swift */,
+				C07A1E6E209001B800F875D2 /* WalkerViewController.swift */,
+				C07A1E70209001C500F875D2 /* PotterViewController.swift */,
+				C07A1E72209001E400F875D2 /* LibraryViewController.swift */,
+				C07A1E74209001FB00F875D2 /* AuditoriumViewController.swift */,
+				C07A1E762090020800F875D2 /* ChapelViewController.swift */,
+				C07A1E782090021800F875D2 /* BuderViewController.swift */,
+				C07A1E7A2090023000F875D2 /* McNallyViewController.swift */,
+				C07A1E7C2090024400F875D2 /* BaseballViewController.swift */,
+				C07A1E7E2090025700F875D2 /* SoccerFieldViewController.swift */,
+				C07A1E802090026500F875D2 /* TennisViewController.swift */,
+				C07A1E822090028000F875D2 /* SoccerPracitceFieldViewController.swift */,
+				C07A1E842090029700F875D2 /* AnheuserBuschViewController.swift */,
+				C07A1E86209002A600F875D2 /* ReidViewController.swift */,
+				C07A1E88209002B600F875D2 /* KernaghanViewController.swift */,
+				C07A1E8A209002D700F875D2 /* DesignViewController.swift */,
+				C07A1E8C209002E600F875D2 /* StudioViewController.swift */,
+				C07A1E8E209002F500F875D2 /* AnnexViewController.swift */,
+				C07A1E902090030400F875D2 /* ApartmentsViewController.swift */,
+			);
+			path = Buildings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07A1E17208E84AE00F875D2 /* Final Maryville App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07A1E43208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville App" */;
+			buildPhases = (
+				C07A1E14208E84AE00F875D2 /* Sources */,
+				C07A1E15208E84AE00F875D2 /* Frameworks */,
+				C07A1E16208E84AE00F875D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Final Maryville App";
+			productName = "Final Maryville App";
+			productReference = C07A1E18208E84AE00F875D2 /* Final Maryville App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07A1E2E208E84AF00F875D2 /* Final Maryville AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07A1E46208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville AppTests" */;
+			buildPhases = (
+				C07A1E2B208E84AF00F875D2 /* Sources */,
+				C07A1E2C208E84AF00F875D2 /* Frameworks */,
+				C07A1E2D208E84AF00F875D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07A1E31208E84AF00F875D2 /* PBXTargetDependency */,
+			);
+			name = "Final Maryville AppTests";
+			productName = "Final Maryville AppTests";
+			productReference = C07A1E2F208E84AF00F875D2 /* Final Maryville AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07A1E39208E84AF00F875D2 /* Final Maryville AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07A1E49208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville AppUITests" */;
+			buildPhases = (
+				C07A1E36208E84AF00F875D2 /* Sources */,
+				C07A1E37208E84AF00F875D2 /* Frameworks */,
+				C07A1E38208E84AF00F875D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07A1E3C208E84AF00F875D2 /* PBXTargetDependency */,
+			);
+			name = "Final Maryville AppUITests";
+			productName = "Final Maryville AppUITests";
+			productReference = C07A1E3A208E84AF00F875D2 /* Final Maryville AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07A1E10208E84AE00F875D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rasmus Tauts";
+				TargetAttributes = {
+					C07A1E17208E84AE00F875D2 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					C07A1E2E208E84AF00F875D2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C07A1E17208E84AE00F875D2;
+					};
+					C07A1E39208E84AF00F875D2 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = C07A1E17208E84AE00F875D2;
+					};
+				};
+			};
+			buildConfigurationList = C07A1E13208E84AE00F875D2 /* Build configuration list for PBXProject "Final Maryville App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07A1E0F208E84AE00F875D2;
+			productRefGroup = C07A1E19208E84AE00F875D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07A1E17208E84AE00F875D2 /* Final Maryville App */,
+				C07A1E2E208E84AF00F875D2 /* Final Maryville AppTests */,
+				C07A1E39208E84AF00F875D2 /* Final Maryville AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07A1E16208E84AE00F875D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05B092D20918E6200F28AF2 /* logo.png in Resources */,
+				C07A1E29208E84AF00F875D2 /* LaunchScreen.storyboard in Resources */,
+				C05B0932209195E500F28AF2 /* rattata.png in Resources */,
+				C07A1E26208E84AF00F875D2 /* Assets.xcassets in Resources */,
+				C07A1E21208E84AE00F875D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E2D208E84AF00F875D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E38208E84AF00F875D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07A1E14208E84AE00F875D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A1E6B2090018600F875D2 /* SaintsViewController.swift in Sources */,
+				C07A1E5D208EE25300F875D2 /* BuildingsViewController.swift in Sources */,
+				C07A1E87209002A600F875D2 /* ReidViewController.swift in Sources */,
+				C07A1E1E208E84AE00F875D2 /* ViewController.swift in Sources */,
+				C07A1E832090028000F875D2 /* SoccerPracitceFieldViewController.swift in Sources */,
+				C07A1E24208E84AE00F875D2 /* Final_Maryville_App.xcdatamodeld in Sources */,
+				C07A1E7D2090024400F875D2 /* BaseballViewController.swift in Sources */,
+				C07A1E852090029700F875D2 /* AnheuserBuschViewController.swift in Sources */,
+				C07A1E59208ED8AD00F875D2 /* AppointmentsViewController.swift in Sources */,
+				C07A1E7B2090023000F875D2 /* McNallyViewController.swift in Sources */,
+				C07A1E692090015B00F875D2 /* MoutonViewController.swift in Sources */,
+				C07A1E812090026500F875D2 /* TennisViewController.swift in Sources */,
+				C07A1E75209001FB00F875D2 /* AuditoriumViewController.swift in Sources */,
+				C07A1E8F209002F500F875D2 /* AnnexViewController.swift in Sources */,
+				C07A1E6D209001A900F875D2 /* GanderViewController.swift in Sources */,
+				C07A1E5B208EDA0600F875D2 /* MenuViewController.swift in Sources */,
+				C07A1E5F208EE27A00F875D2 /* EmergencyViewController.swift in Sources */,
+				C07A1E642090011E00F875D2 /* DUCViewController.swift in Sources */,
+				C07A1E6F209001B800F875D2 /* WalkerViewController.swift in Sources */,
+				C07A1E912090030400F875D2 /* ApartmentsViewController.swift in Sources */,
+				C07A1E8B209002D700F875D2 /* DesignViewController.swift in Sources */,
+				C07A1E89209002B600F875D2 /* KernaghanViewController.swift in Sources */,
+				C07A1E61208EE29B00F875D2 /* AboutMeViewController.swift in Sources */,
+				C07A1E53208EB72200F875D2 /* Menu.swift in Sources */,
+				C07A1E71209001C500F875D2 /* PotterViewController.swift in Sources */,
+				C07A1E672090014B00F875D2 /* SimonViewController.swift in Sources */,
+				C07A1E1C208E84AE00F875D2 /* AppDelegate.swift in Sources */,
+				C07A1E792090021800F875D2 /* BuderViewController.swift in Sources */,
+				C07A1E7F2090025700F875D2 /* SoccerFieldViewController.swift in Sources */,
+				C07A1E772090020800F875D2 /* ChapelViewController.swift in Sources */,
+				C07A1E73209001E400F875D2 /* LibraryViewController.swift in Sources */,
+				C07A1E57208ECDA500F875D2 /* EventsViewController.swift in Sources */,
+				C07A1E8D209002E600F875D2 /* StudioViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E2B208E84AF00F875D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A1E34208E84AF00F875D2 /* Final_Maryville_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07A1E36208E84AF00F875D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A1E3F208E84AF00F875D2 /* Final_Maryville_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07A1E31208E84AF00F875D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07A1E17208E84AE00F875D2 /* Final Maryville App */;
+			targetProxy = C07A1E30208E84AF00F875D2 /* PBXContainerItemProxy */;
+		};
+		C07A1E3C208E84AF00F875D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07A1E17208E84AE00F875D2 /* Final Maryville App */;
+			targetProxy = C07A1E3B208E84AF00F875D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C07A1E1F208E84AE00F875D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07A1E20208E84AE00F875D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C07A1E27208E84AF00F875D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07A1E28208E84AF00F875D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07A1E41208E84AF00F875D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07A1E42208E84AF00F875D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07A1E44208E84AF00F875D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07A1E45208E84AF00F875D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07A1E47208E84AF00F875D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Maryville App.app/Final Maryville App";
+			};
+			name = Debug;
+		};
+		C07A1E48208E84AF00F875D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Final Maryville App.app/Final Maryville App";
+			};
+			name = Release;
+		};
+		C07A1E4A208E84AF00F875D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Maryville App";
+			};
+			name = Debug;
+		};
+		C07A1E4B208E84AF00F875D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Final Maryville AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MARYVILLE.Final-Maryville-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Final Maryville App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07A1E13208E84AE00F875D2 /* Build configuration list for PBXProject "Final Maryville App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A1E41208E84AF00F875D2 /* Debug */,
+				C07A1E42208E84AF00F875D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07A1E43208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A1E44208E84AF00F875D2 /* Debug */,
+				C07A1E45208E84AF00F875D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07A1E46208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A1E47208E84AF00F875D2 /* Debug */,
+				C07A1E48208E84AF00F875D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07A1E49208E84AF00F875D2 /* Build configuration list for PBXNativeTarget "Final Maryville AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07A1E4A208E84AF00F875D2 /* Debug */,
+				C07A1E4B208E84AF00F875D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C07A1E22208E84AE00F875D2 /* Final_Maryville_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C07A1E23208E84AE00F875D2 /* Final_Maryville_App.xcdatamodel */,
+			);
+			currentVersion = C07A1E23208E84AE00F875D2 /* Final_Maryville_App.xcdatamodel */;
+			path = Final_Maryville_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C07A1E10208E84AE00F875D2 /* Project object */;
+}
